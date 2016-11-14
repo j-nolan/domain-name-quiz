@@ -1,0 +1,65 @@
+[
+  {
+    "question": "Which of the following are valid domain names?
+
+    ```
+    1. Google.com\n
+    2. Google.co.uk\n
+    3. Google.com.br
+    ```",
+    "answers": [{
+      "answer": "1.",
+      "correct": false
+    },
+    {
+      "answer": "1. and 2.",
+      "correct": false
+    },
+    {
+      "answer": "all of them",
+      "correct": true
+    }],
+    "explanation": "All three domains are valid. Domain names that finish in
+    `co.uk` is generally used in the United Kingdom, while `com.br` is common
+    in Brazil."
+  },
+  {
+    "question": "Which of the following domain names is the oldest?
+
+    ```
+    1. icann.org, owned by ICANN, the organization that coordinates internet names registration\n
+    2. apple.com, owned by Apple Inc.\n
+    3. w3.org, owned by the W3C, founded by Tim Berners-Lee, inventor of the World Wide Web
+    ```",
+    "answers": [{
+      "number": 1,
+      "answer": "1.",
+      "correct": false
+    },
+    {
+      "number": 2,
+      "answer": "2.",
+      "correct": true
+    },
+    {
+      "number": 3,
+      "answer": "3.",
+      "correct": false
+    }],
+    "explanation": "The domain `icann.org` is owned by *Internet Corporation
+    for Assigned Names and Numbers* (ICANN), the organization responsible
+    for coordinating domain names registration. However, it was only founded
+    in **September of 1998**, ten years after the World Wild Web was invented.\n
+    \n
+    The web was invented in 1989 by Time Berners-Lee, at the European
+    Organization for Nuclear Research (CERN). It is unclear when CERN
+    registered `cern.ch`, but likely
+    [after November
+    1987](http://www.domainholdings.com/recent-sales/100-oldest-domain-names/)
+    and [before the end of
+    1990](https://www.w3.org/People/Berners-Lee/FAQ.html#Examples).\n
+    \n
+    It is however known that `apple.com`
+    "
+  }
+]

@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: #464839;
+
+  background-image: url(background-optimized.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #383B2E;
+}
+
+h1 {
+  font-size:3.5em;
+  font-variant: small-caps;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  border: 0;
+  padding: .5em 1.5em;
+  margin:.5em;
+  cursor: pointer;
+  text-shadow: 2px 2px 0px #C0CA33;
+  font-size:1.5em;
+  color: white;
+  background: #D4E157;
+  border-bottom: 2px solid #C0C433;
+}
+
+.app-wrapper {
+  width:50%;
+  max-width: 900px;
+  margin:3em auto;
+  padding:4em;
+  background: white;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    font-size: 1em;
+  }
+  .app-wrapper {
+    width: auto;
+    margin: 0;
+    padding: 1em;
+    height: 100vh;
+  }
+}
+
+.tag-line {
+  font-size:2em;
+}
