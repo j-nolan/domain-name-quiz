@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "domain-name-quiz",
   "version": "1.0.0",
-  "description": "A boilerplate for developping react/redux web applications",
+  "description": "A quiz to test your knolewdge in domain names",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server -d --content-base public/",
